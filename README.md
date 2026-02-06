@@ -50,3 +50,43 @@ The system supports both:
 
 ## 🧩 Block Diagram (Logical Flow)
 
+Dataset → Data Cleaning → TF-IDF Vectorization →
+Random Forest Classifier → Model Evaluation →
+Prediction (FAKE / REAL)
+
+
+---
+
+## 🛠️ Technologies & Tools Used
+
+- Python  
+- Jupyter Notebook  
+- NumPy  
+- Pandas  
+- Scikit-learn  
+- NLTK  
+- Matplotlib / Seaborn  
+- Streamlit (for frontend – extendable)
+
+---
+
+## 📂 Project Structure
+
+Fake-News-Detection/
+│
+├── fake_news_detection.ipynb
+├── README.md
+├── dataset/
+│ ├── Fake.csv
+│ └── True.csv
+└── app.py (optional Streamlit interface)
+
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/fake-news-detection.git
+
