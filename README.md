@@ -24,6 +24,8 @@ The system supports both:
 - API-based live news input (conceptual / extendable)
 
 ---
+## Datasets
+https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets
 
 ## ⚙️ System Workflow
 
